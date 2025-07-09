@@ -21,6 +21,7 @@
     "format": "prettier --write src/",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
+    "test-storybook": "test-storybook",
     "init-msw": "msw init public/"
   },
   "dependencies": {
@@ -35,6 +36,7 @@
     "@storybook/addon-links": "^8.3.2",
     "@storybook/blocks": "^8.3.2",
     "@storybook/test": "^8.3.2",
+    "@storybook/test-runner": "^0.23.0",
     "@storybook/vue3": "^8.3.2",
     "@storybook/vue3-vite": "^8.3.2",
     "@vitejs/plugin-vue": "^5.0.4",
